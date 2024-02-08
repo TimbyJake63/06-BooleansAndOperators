@@ -59,8 +59,8 @@ print(bool(less_than_or_equal_to(1,1)))
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-print(bool(t1 in txt))
-print(bool(t2 in txt))
+print(t1 in txt)
+print(t2 in txt)
 ###############################################################################
 # DONE: 3. (1 pt)
 #
@@ -72,4 +72,4 @@ print(bool(t2 in txt))
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-print(bool(t1 not in t2))
+print(t1 not in t2)
