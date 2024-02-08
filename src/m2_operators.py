@@ -72,4 +72,4 @@ print(bool(t2 in txt))
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-print(bool(t1 != t2))
+print(bool(t1 not in t2))
