@@ -3,7 +3,7 @@ t1 = "fox"
 t2 = "cat"
 
 ###############################################################################
-# TODO: 1. (6 pts)
+# DONE: 1. (6 pts)
 #
 #   Write each of the functions below (each that takes two parameters and uses
 #   the appropriate operator from the reading) that simply returns the boolean
@@ -21,9 +21,27 @@ t2 = "cat"
 #   
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+def equal(x,y):
+    return x == y
+def not_equal(x,y):
+    return x != y
+def greater_than(x,y):
+    return x > y
+def less_than(x,y):
+    return x < y
+def greater_than_or_equal_to(x,y):
+    return x >= y
+def less_than_or_equal_to(x,y):
+    return x <= y
 
+print(bool(equal(1,1)))
+print(bool(not_equal(1,2)))
+print(bool(greater_than(2,1)))
+print(bool(less_than(1,2)))
+print(bool(greater_than_or_equal_to(2,1)))
+print(bool(less_than_or_equal_to(1,1)))
 ###############################################################################
-# TODO: 2. (2 pts)
+# DONE: 2. (2 pts)
 #
 #   Write a line of code that returns True if the string
 #       t1 (defined above)
@@ -41,9 +59,10 @@ t2 = "cat"
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(bool(t1 in txt))
+print(bool(t2 in txt))
 ###############################################################################
-# TODO: 3. (1 pt)
+# DONE: 3. (1 pt)
 #
 #   Now, write a line of code that returns True if the string
 #       t1
@@ -53,3 +72,4 @@ t2 = "cat"
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+print(bool(t1 != t2))
